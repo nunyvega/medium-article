@@ -1,0 +1,70 @@
+
+body {
+  margin: 0px;
+  font-family: 'Lora', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+   margin: 0px;
+   padding: 120px 0;
+}
+
+.banner > .container {
+  text-align:center;
+  margin: 50px auto;
+  vertical-align: middle;
+}
+
+.banner .container h1 {
+  color:white;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+   font-size: 38px;
+
+}
+
+.banner .container p {
+  color:white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-family: Lora, serif;
+  font-style: italic;
+
+}
+
+.container {
+  width: 700px;
+  margin :50px auto;
+
+}
+
+.container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  color: rgb(160, 160, 160);
+}
+
+.container p {
+  color:rgb(73, 73, 73);
+  font-family: Lora, serif;
+  font-size: 18px;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+    background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
